@@ -19,6 +19,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         dropdown = UIDropDown(textField: txtLanguage, dropdownlist: languageOptions)
+        print("update")
     }
 
     override func didReceiveMemoryWarning() {
